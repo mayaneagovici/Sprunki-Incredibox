@@ -1,0 +1,1139 @@
+{
+  "mod_elements": [
+    {
+      "name": "Oren",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oren",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/OrenRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/oren_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/OrenEntity.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/oren_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/OrenModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Sprunki",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sprunki",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Raddy",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raddy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/raddy_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/raddy_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/RaddyRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/RaddyEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/RaddyModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Clukr",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clukr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/ClukrRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/ClukrEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/ClukrModel.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/clukr_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/clukr_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "FunBot",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fun_bot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/FunBotRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/FunBotModel.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/fun_bot_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/FunBotEntity.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/fun_bot_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Vineria",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vineria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/VineriaRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/VineriaModel.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/vineria_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/vineria_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/VineriaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Gray",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/GrayEntity.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/gray_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/GrayRenderer.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/gray_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/GrayModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Brud",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brud",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/brud_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/BrudModel.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/brud_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/BrudEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/BrudRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Garnold",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/garnold_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/GarnoldEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/GarnoldRenderer.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/garnold_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/GarnoldModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Owakck",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owakck",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/OwakckEntity.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/owakck_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/OwakckRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/owakck_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/OwakckModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Sky",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/SkyEntity.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/sky_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/SkyModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/SkyRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/sky_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MrSun",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/mr_sun_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/MrSunRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/MrSunModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/mr_sun_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/MrSunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Durple",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "durple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/durple_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/durple_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/DurpleModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/DurpleEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/DurpleRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MrTree",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/MrTreeRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/mr_tree_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/MrTreeModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/mr_tree_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/MrTreeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Simon",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/SimonModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/SimonEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/SimonRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/simon_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/simon_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Tunner",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/tunner_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/TunnerEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/TunnerModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/TunnerRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/tunner_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MrFunComputer",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_fun_computer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/mr_fun_computer_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/MrFunComputerRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/MrFunComputerModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/MrFunComputerEntity.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/mr_fun_computer_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Wenda",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wenda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/WendaModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/wenda_biome_modifier.json",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/wenda_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/WendaEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/WendaRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Pinki",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinki",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/pinki_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/PinkiRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/PinkiModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/pinki_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/PinkiEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Jevin",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jevin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/jevin_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/JevinEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/JevinModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/JevinRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/jevin_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Black",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/BlackRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/BlackEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/BlackModel.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/black_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/black_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorOren",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_oren",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_oren_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorOrenRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorOrenModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_oren_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorOrenEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorRaddy",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_raddy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_raddy_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_raddy_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorRaddyEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorRaddyRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorRaddyModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorClukr",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_clukr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorClukrRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_clukr_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorClukrEntity.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_clukr_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorClukrModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorFunBot",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_fun_bot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_fun_bot_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorFunBotEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorFunBotRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorFunBotModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_fun_bot_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorVineria",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_vineria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorVineriaRenderer.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_vineria_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorVineriaEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorVineriaModel.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_vineria_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorGray",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_gray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorGrayEntity.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_gray_biome_modifier.json",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_gray_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorGrayRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorGrayModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorBrud",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_brud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_brud_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_brud_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorBrudEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorBrudModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorBrudRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorGarnold",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_garnold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_garnold_biome_modifier.json",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_garnold_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorGarnoldModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorGarnoldRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorGarnoldEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorOwakck",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_owakck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_owakck_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_owakck_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorOwakckModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorOwakckRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorOwakckEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorSky",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_sky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorSkyEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorSkyModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorSkyRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_sky_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_sky_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorMrSun",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_mr_sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_mr_sun_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_mr_sun_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorMrSunRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorMrSunModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorMrSunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorDurple",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_durple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorDurpleEntity.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_durple_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorDurpleModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorDurpleRenderer.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_durple_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorMrTree",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_mr_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorMrTreeEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorMrTreeRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_mr_tree_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_mr_tree_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorMrTreeModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorSimon",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_simon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorSimonModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_simon_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorSimonRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorSimonEntity.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_simon_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorTunner",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_tunner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_tunner_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorTunnerRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorTunnerEntity.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_tunner_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorTunnerModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorMrFunComputer",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_mr_fun_computer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorMrFunComputerModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_mr_fun_computer_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorMrFunComputerEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorMrFunComputerRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_mr_fun_computer_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorWenda",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_wenda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorWendaEntity.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorWendaRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorWendaModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_wenda_biome_modifier.json",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_wenda_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorPinki",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_pinki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorPinkiModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorPinkiRenderer.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_pinki_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_pinki_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorPinkiEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HorrorJevin",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_jevin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorJevinEntity.java",
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_jevin_spawn_egg.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorJevinRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorJevinModel.java",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_jevin_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HorrorBlack",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horror_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sprunkis_super_reforge/models/item/horror_black_spawn_egg.json",
+          "src/main/resources/data/sprunkis_super_reforge/neoforge/biome_modifier/horror_black_biome_modifier.json",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/model/HorrorBlackModel.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/client/renderer/HorrorBlackRenderer.java",
+          "src/main/java/net/mcreator/sprunkissuperreforge/entity/HorrorBlackEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "brud_normal",
+      "files": [
+        "brud_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "brud_normal"
+    },
+    {
+      "name": "clukr_normal",
+      "files": [
+        "clukr_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "clukr_normal"
+    },
+    {
+      "name": "durple_cool",
+      "files": [
+        "durple_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "durple_cool"
+    },
+    {
+      "name": "fun_bot",
+      "files": [
+        "funbot_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "fun_bot"
+    },
+    {
+      "name": "garnold_cool",
+      "files": [
+        "garnold_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "garnold_cool"
+    },
+    {
+      "name": "gray_yes",
+      "files": [
+        "gray_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "gray_yes"
+    },
+    {
+      "name": "jevin_melody",
+      "files": [
+        "jevin_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "jevin_melody"
+    },
+    {
+      "name": "mrfuncomputer_cooler",
+      "files": [
+        "mrfuncomputer_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "mrfuncomputer_cooler"
+    },
+    {
+      "name": "mrsun_bright",
+      "files": [
+        "mrsun_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "mrsun_bright"
+    },
+    {
+      "name": "mrtree_coolestheh",
+      "files": [
+        "mrtree_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "mrtree_coolestheh"
+    },
+    {
+      "name": "oren_cutest",
+      "files": [
+        "oren_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "oren_cutest"
+    },
+    {
+      "name": "owakck_melodys",
+      "files": [
+        "owakck_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "owakck_melodys"
+    },
+    {
+      "name": "pinkis_nicest",
+      "files": [
+        "pinki_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "pinkis_nicest"
+    },
+    {
+      "name": "raddys_cutestnormal",
+      "files": [
+        "raddy_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "raddys_cutestnormal"
+    },
+    {
+      "name": "simon_yellows",
+      "files": [
+        "simon_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "simon_yellows"
+    },
+    {
+      "name": "sky_oren",
+      "files": [
+        "sky_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "sky_oren"
+    },
+    {
+      "name": "tunner_finest",
+      "files": [
+        "tunner_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "tunner_finest"
+    },
+    {
+      "name": "vineria_prettys",
+      "files": [
+        "vineria_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "vineria_prettys"
+    },
+    {
+      "name": "wenda_cutes",
+      "files": [
+        "wenda_phase1_idle"
+      ],
+      "category": "music",
+      "subtitle": "wenda_cutes"
+    },
+    {
+      "name": "black_nice",
+      "files": [
+        "black_idle"
+      ],
+      "category": "music",
+      "subtitle": "black_nice"
+    },
+    {
+      "name": "brud_horror",
+      "files": [
+        "brud_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "brud_horror"
+    },
+    {
+      "name": "clukr_horror",
+      "files": [
+        "clukr_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "clukr_horror"
+    },
+    {
+      "name": "durple_horror",
+      "files": [
+        "durple_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "durple_horror"
+    },
+    {
+      "name": "funbot_horror",
+      "files": [
+        "funbot_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "funbot_horror"
+    },
+    {
+      "name": "garnold_horror",
+      "files": [
+        "garnold_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "garnold_horror"
+    },
+    {
+      "name": "gray_horror",
+      "files": [
+        "gray_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "gray_horror"
+    },
+    {
+      "name": "jevin_horror",
+      "files": [
+        "jevin_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "jevin_horror"
+    },
+    {
+      "name": "mrfuncomputer_horror",
+      "files": [
+        "mrfuncomputer_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "mrfuncomputer_horror"
+    },
+    {
+      "name": "mrsun_horror",
+      "files": [
+        "mrsun_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "mrsun_horror"
+    },
+    {
+      "name": "mrtree_horror",
+      "files": [
+        "mrtree_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "mrtree_horror"
+    },
+    {
+      "name": "horror_oren",
+      "files": [
+        "oren_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "horror_oren"
+    },
+    {
+      "name": "owakck_horror",
+      "files": [
+        "owakck_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "owakck_horror"
+    },
+    {
+      "name": "horror_pinki",
+      "files": [
+        "pinki_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "horror_pinki"
+    },
+    {
+      "name": "horror_raddy",
+      "files": [
+        "raddy_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "horror_raddy"
+    },
+    {
+      "name": "horror_simon",
+      "files": [
+        "simon_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "horror_simon"
+    },
+    {
+      "name": "sky_horror",
+      "files": [
+        "sky_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "sky_horror"
+    },
+    {
+      "name": "tunner_horror",
+      "files": [
+        "tunner_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "tunner_horror"
+    },
+    {
+      "name": "vineria_horror",
+      "files": [
+        "vineria_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "vineria_horror"
+    },
+    {
+      "name": "horror_wenda",
+      "files": [
+        "wenda_phase2_idle"
+      ],
+      "category": "music",
+      "subtitle": "horror_wenda"
+    }
+  ],
+  "tag_elements": {
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:HorrorBlack",
+      "~CUSTOM:HorrorPinki",
+      "~CUSTOM:HorrorWenda",
+      "~CUSTOM:HorrorMrFunComputer",
+      "~CUSTOM:HorrorTunner",
+      "~CUSTOM:HorrorSimon",
+      "~CUSTOM:HorrorMrTree",
+      "~CUSTOM:HorrorDurple",
+      "~CUSTOM:HorrorMrSun",
+      "~CUSTOM:HorrorSky",
+      "~CUSTOM:HorrorOwakck",
+      "~CUSTOM:HorrorGarnold",
+      "~CUSTOM:HorrorBrud",
+      "~CUSTOM:HorrorVineria",
+      "~CUSTOM:HorrorFunBot",
+      "~CUSTOM:HorrorClukr",
+      "~CUSTOM:HorrorRaddy",
+      "~CUSTOM:HorrorOren"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.durple_horror": "durple_horror",
+      "entity.sprunkis_super_reforge.simon": "Simon",
+      "subtitles.horror_wenda": "horror_wenda",
+      "entity.sprunkis_super_reforge.gray": "Gray",
+      "item.sprunkis_super_reforge.horror_brud_spawn_egg": "Spawn Brud [Phase II]",
+      "entity.sprunkis_super_reforge.horror_brud": "Horror Brud",
+      "item_group.sprunkis_super_reforge.sprunki": "Sprunki",
+      "item.sprunkis_super_reforge.mr_tree_spawn_egg": "Mr. Tree Spawn Egg",
+      "item.sprunkis_super_reforge.jevin_spawn_egg": "Spawn Jevin [Phase I]",
+      "entity.sprunkis_super_reforge.mr_tree": "Mr. Tree",
+      "subtitles.funbot_horror": "funbot_horror",
+      "item.sprunkis_super_reforge.owakck_spawn_egg": "Spawn Owakck [Phase I]",
+      "subtitles.gray_horror": "gray_horror",
+      "item.sprunkis_super_reforge.horror_mr_tree_spawn_egg": "Horror Mr. Tree Spawn Egg",
+      "entity.sprunkis_super_reforge.horror_jevin": "Horror Jevin",
+      "item.sprunkis_super_reforge.horror_simon_spawn_egg": "Spawn Simon [Phase II]",
+      "entity.sprunkis_super_reforge.horror_raddy": "Horror Raddy",
+      "entity.sprunkis_super_reforge.horror_vineria": "Horror Vineria",
+      "subtitles.jevin_melody": "jevin_melody",
+      "entity.sprunkis_super_reforge.garnold": "Garnold",
+      "entity.sprunkis_super_reforge.pinki": "Pinki",
+      "entity.sprunkis_super_reforge.mr_fun_computer": "Mr. Fun Computer",
+      "subtitles.tunner_finest": "tunner_finest",
+      "entity.sprunkis_super_reforge.mr_sun": "Mr. Sun",
+      "item.sprunkis_super_reforge.horror_wenda_spawn_egg": "Spawn Wenda [Phase II]",
+      "entity.sprunkis_super_reforge.black": "Black",
+      "entity.sprunkis_super_reforge.durple": "Durple",
+      "subtitles.mrfuncomputer_cooler": "mrfuncomputer_cooler",
+      "subtitles.black_nice": "black_nice",
+      "subtitles.owakck_melodys": "owakck_melodys",
+      "item.sprunkis_super_reforge.horror_mr_fun_computer_spawn_egg": "Horror Mr. Fun Computer Spawn Egg",
+      "entity.sprunkis_super_reforge.horror_oren": "Horror Oren",
+      "subtitles.wenda_cutes": "wenda_cutes",
+      "subtitles.horror_raddy": "horror_raddy",
+      "item.sprunkis_super_reforge.clukr_spawn_egg": "Spawn Clukr [Phase I]",
+      "entity.sprunkis_super_reforge.tunner": "Tunner",
+      "subtitles.pinkis_nicest": "pinkis_nicest",
+      "subtitles.vineria_horror": "vineria_horror",
+      "subtitles.owakck_horror": "owakck_horror",
+      "subtitles.raddys_cutestnormal": "raddys_cutestnormal",
+      "item.sprunkis_super_reforge.horror_owakck_spawn_egg": "Spawn Owakck [Phase II]",
+      "subtitles.horror_simon": "horror_simon",
+      "item.sprunkis_super_reforge.horror_tunner_spawn_egg": "Spawn Tunner [Phase II]",
+      "item.sprunkis_super_reforge.mr_fun_computer_spawn_egg": "Mr. Fun Computer Spawn Egg",
+      "subtitles.mrtree_horror": "mrtree_horror",
+      "item.sprunkis_super_reforge.horror_garnold_spawn_egg": "Spawn Garnold [Phase II]",
+      "item.sprunkis_super_reforge.simon_spawn_egg": "Simon Spawn Egg",
+      "entity.sprunkis_super_reforge.horror_owakck": "Horror Owakck",
+      "item.sprunkis_super_reforge.horror_pinki_spawn_egg": "Spawn Pinki [Phase II]",
+      "item.sprunkis_super_reforge.horror_clukr_spawn_egg": "Spawn Clukr [Phase II]",
+      "entity.sprunkis_super_reforge.horror_mr_sun": "Horror Mr. Sun",
+      "entity.sprunkis_super_reforge.horror_clukr": "Horror Clukr",
+      "subtitles.oren_cutest": "oren_cutest",
+      "subtitles.tunner_horror": "tunner_horror",
+      "entity.sprunkis_super_reforge.raddy": "Raddy",
+      "entity.sprunkis_super_reforge.horror_pinki": "Horror Pinki",
+      "entity.sprunkis_super_reforge.clukr": "Clukr",
+      "subtitles.gray_yes": "gray_yes",
+      "entity.sprunkis_super_reforge.horror_garnold": "Horror Garnold",
+      "subtitles.clukr_normal": "clukr_normal",
+      "item.sprunkis_super_reforge.brud_spawn_egg": "Spawn Brud [Phase I]",
+      "entity.sprunkis_super_reforge.horror_gray": "Horror Gray",
+      "entity.sprunkis_super_reforge.brud": "Brud",
+      "item.sprunkis_super_reforge.horror_fun_bot_spawn_egg": "Spawn Fun Bot [Phase II]",
+      "subtitles.fun_bot": "fun_bot",
+      "entity.sprunkis_super_reforge.horror_tunner": "Horror Tunner",
+      "item.sprunkis_super_reforge.horror_durple_spawn_egg": "Spawn Durple [Phase II]",
+      "entity.sprunkis_super_reforge.horror_black": "Horror Black",
+      "subtitles.jevin_horror": "jevin_horror",
+      "item.sprunkis_super_reforge.horror_raddy_spawn_egg": "Spawn Raddy [Phase II]",
+      "entity.sprunkis_super_reforge.sky": "Sky",
+      "entity.sprunkis_super_reforge.jevin": "Jevin",
+      "subtitles.clukr_horror": "clukr_horror",
+      "entity.sprunkis_super_reforge.vineria": "Vineria",
+      "item.sprunkis_super_reforge.fun_bot_spawn_egg": "Spawn Fun Bot [Phase I]",
+      "item.sprunkis_super_reforge.horror_oren_spawn_egg": "Spawn Oren [Phase II]",
+      "item.sprunkis_super_reforge.horror_vineria_spawn_egg": "Spawn Vineria [Phase II]",
+      "subtitles.brud_horror": "brud_horror",
+      "item.sprunkis_super_reforge.mr_sun_spawn_egg": "Spawn Mr. Sun [Phase I]",
+      "subtitles.brud_normal": "brud_normal",
+      "entity.sprunkis_super_reforge.fun_bot": "Fun Bot",
+      "subtitles.mrfuncomputer_horror": "mrfuncomputer_horror",
+      "subtitles.durple_cool": "durple_cool",
+      "entity.sprunkis_super_reforge.horror_sky": "Horror Sky",
+      "item.sprunkis_super_reforge.horror_mr_sun_spawn_egg": "Spawn Mr. Sun [Phase II]",
+      "subtitles.mrtree_coolestheh": "mrtree_coolestheh",
+      "item.sprunkis_super_reforge.raddy_spawn_egg": "Spawn Raddy [Phase I]",
+      "item.sprunkis_super_reforge.vineria_spawn_egg": "Spawn Vineria [Phase I]",
+      "item.sprunkis_super_reforge.black_spawn_egg": "Spawn Black [Phase I]",
+      "entity.sprunkis_super_reforge.horror_fun_bot": "Horror Fun Bot",
+      "entity.sprunkis_super_reforge.wenda": "Wenda",
+      "entity.sprunkis_super_reforge.horror_simon": "Horror Simon",
+      "subtitles.mrsun_bright": "mrsun_bright",
+      "entity.sprunkis_super_reforge.oren": "Oren",
+      "item.sprunkis_super_reforge.pinki_spawn_egg": "Spawn Pinki [Phase I]",
+      "entity.sprunkis_super_reforge.horror_mr_tree": "Horror Mr. Tree",
+      "entity.sprunkis_super_reforge.owakck": "Owakck",
+      "item.sprunkis_super_reforge.sky_spawn_egg": "Spawn Sky [Phase I]",
+      "subtitles.horror_oren": "horror_oren",
+      "entity.sprunkis_super_reforge.horror_mr_fun_computer": "Horror Mr. Fun Computer",
+      "subtitles.horror_pinki": "horror_pinki",
+      "entity.sprunkis_super_reforge.horror_durple": "Horror Durple",
+      "item.sprunkis_super_reforge.garnold_spawn_egg": "Spawn Garnold [Phase I]",
+      "item.sprunkis_super_reforge.horror_jevin_spawn_egg": "Spawn Jevin [Phase II]",
+      "item.sprunkis_super_reforge.horror_gray_spawn_egg": "Spawn Gray [Phase II]",
+      "entity.sprunkis_super_reforge.horror_wenda": "Horror Wenda",
+      "item.sprunkis_super_reforge.durple_spawn_egg": "Spawn Durple [Phase I]",
+      "subtitles.sky_oren": "sky_oren",
+      "item.sprunkis_super_reforge.oren_spawn_egg": "Spawn Oren [Phase I]",
+      "item.sprunkis_super_reforge.horror_sky_spawn_egg": "Spawn Sky [Phase II]",
+      "subtitles.mrsun_horror": "mrsun_horror",
+      "item.sprunkis_super_reforge.wenda_spawn_egg": "Spawn Wenda [Phase I]",
+      "item.sprunkis_super_reforge.tunner_spawn_egg": "Spawn Tunner [Phase I]",
+      "subtitles.garnold_horror": "garnold_horror",
+      "subtitles.garnold_cool": "garnold_cool",
+      "item.sprunkis_super_reforge.gray_spawn_egg": "Spawn Gray [Phase I]",
+      "subtitles.sky_horror": "sky_horror",
+      "subtitles.vineria_prettys": "vineria_prettys",
+      "item.sprunkis_super_reforge.horror_black_spawn_egg": "Horror Black Spawn Egg",
+      "subtitles.simon_yellows": "simon_yellows"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sprunkis_super_reforge",
+    "modName": "sprunkis_super_reforge",
+    "version": "1.0.0",
+    "author": "mayaneagovici, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sprunkissuperreforge"
+  },
+  "mcreatorVersion": 202400452410
+}

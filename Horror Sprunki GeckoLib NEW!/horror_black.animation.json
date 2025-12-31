@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yg_black_phase2.general": {
+			"loop": true,
+			"animation_length": 17.9167,
+			"sound_effects": {
+				"0.0": {
+					"effect": "music_idle"
+				}
+			}
+		},
+		"animation.yg_black_phase2.looking": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": [0, "query.rotation_to_camera(1) - query.body_y_rotation", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "blacksoul",
+					"locator": "soul"
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

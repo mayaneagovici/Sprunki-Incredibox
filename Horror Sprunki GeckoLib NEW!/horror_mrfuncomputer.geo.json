@@ -1,0 +1,192 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Table",
+					"parent": "Root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, -7], "size": [2, 14, 2], "uv": [0, 0]},
+						{"origin": [5, 0, -7], "size": [2, 14, 2], "uv": [0, 0], "mirror": true},
+						{"origin": [5, 0, 5], "size": [2, 14, 2], "uv": [0, 0], "mirror": true},
+						{"origin": [-7, 0, 5], "size": [2, 14, 2], "uv": [0, 0]},
+						{"origin": [-8, 14, -8], "size": [16, 2, 16], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Computer",
+					"parent": "Table",
+					"pivot": [0.09158, 16.29898, -0.83968],
+					"cubes": [
+						{"origin": [-4, 16, -4], "size": [8, 2, 8], "uv": [34, 29]},
+						{"origin": [-5.36603, 15.63397, -4], "size": [2, 2, 8], "pivot": [-4.36603, 16.63397, 0], "rotation": [0, 0, -30], "uv": [0, 37]},
+						{"origin": [3.36603, 15.63397, -4], "size": [2, 2, 8], "pivot": [4.36603, 16.63397, 0], "rotation": [0, 0, 30], "uv": [0, 37], "mirror": true},
+						{"origin": [-4, 15.63397, -5.36603], "size": [8, 2, 2], "pivot": [0, 16.63397, -4.36603], "rotation": [30, 0, 0], "uv": [40, 47]},
+						{"origin": [-4, 15.63397, 3.36603], "size": [8, 2, 2], "pivot": [0, 16.63397, 4.36603], "rotation": [-30, 0, 0], "uv": [40, 47]},
+						{"origin": [-1, 18, -1], "size": [2, 2, 2], "uv": [0, 18]},
+						{"origin": [-6, 20, -4], "size": [12, 10, 9], "uv": [0, 18]},
+						{"origin": [-6, 29, -5], "size": [12, 1, 1], "uv": [42, 27]},
+						{"origin": [-6, 20, -5], "size": [12, 1, 1], "uv": [42, 27]},
+						{"origin": [-6, 20, -5], "size": [1, 9, 1], "uv": [12, 0]},
+						{"origin": [5, 20, -5], "size": [1, 9, 1], "uv": [12, 0]},
+						{"origin": [-5.90958, 28.28679, -5], "size": [2, 1, 1], "pivot": [-4.90958, 28.78679, -4.5], "rotation": [0, 0, -55], "uv": [0, 22]},
+						{"origin": [3.90958, 28.28679, -5], "size": [2, 1, 1], "pivot": [4.90958, 28.78679, -4.5], "rotation": [0, 0, 55], "uv": [0, 22], "mirror": true},
+						{"origin": [3.90958, 20.71321, -5], "size": [2, 1, 1], "pivot": [4.90958, 21.21321, -4.5], "rotation": [0, 0, -55], "uv": [0, 22], "mirror": true},
+						{"origin": [-5.90958, 20.71321, -5], "size": [2, 1, 1], "pivot": [-4.90958, 21.21321, -4.5], "rotation": [0, 0, 55], "uv": [0, 22]},
+						{"origin": [-5, 21, -4.5], "size": [10, 8, 1], "uv": [33, 18]},
+						{"origin": [0, 17.04237, 3.80932], "size": [2, 0, 5], "pivot": [1, 17.04237, 6.30932], "rotation": [-22.5, 0, 0], "uv": [3, 0]},
+						{"origin": [0, 9.08658, 8.6184], "size": [2, 7, 0], "uv": [0, 37]},
+						{"origin": [-1.26002, -0.48423, 8.6184], "size": [2, 10, 0], "pivot": [-0.26002, 4.51577, 8.6184], "rotation": [0, 0, 15], "uv": [8, 5]}
+					]
+				},
+				{
+					"name": "Screen",
+					"parent": "Computer",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "F1",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 21, -4.51], "size": [10, 8, 0], "uv": [20, 47]}
+					]
+				},
+				{
+					"name": "E1",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 21, -4.51], "size": [10, 8, 0], "uv": [32, 39]}
+					]
+				},
+				{
+					"name": "E2",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 21, -4.51], "size": [10, 8, 0], "uv": [12, 37]}
+					]
+				},
+				{
+					"name": "E3",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 21, -4.51], "size": [10, 8, 0], "uv": [12, 37], "mirror": true}
+					]
+				},
+				{
+					"name": "Somethingiswrong",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 21, -4.51], "size": [10, 8, 0], "uv": [0, 47]}
+					]
+				},
+				{
+					"name": "Theyareall",
+					"parent": "Screen",
+					"pivot": [0, 26, -4.51],
+					"cubes": [
+						{"origin": [-5, 25, -4.51], "size": [10, 2, 0], "uv": [40, 51]}
+					]
+				},
+				{
+					"name": "Dead",
+					"parent": "Screen",
+					"pivot": [0, 23, -4.51],
+					"cubes": [
+						{"origin": [-4.5, 21, -4.51], "size": [9, 4, 0], "uv": [48, 12]}
+					]
+				},
+				{
+					"name": "Theyare",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-3.5, 24, -4.51], "size": [7, 2, 0], "uv": [54, 53]}
+					]
+				},
+				{
+					"name": "Not",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-4.5, 23, -4.51], "size": [9, 4, 0], "uv": [48, 8]}
+					]
+				},
+				{
+					"name": "Real",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-4.5, 23, -4.51], "size": [9, 4, 0], "uv": [48, 4]}
+					]
+				},
+				{
+					"name": "Youcan",
+					"parent": "Screen",
+					"pivot": [-0.00002, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 24, -4.51], "size": [7, 2, 0], "uv": [40, 53]}
+					]
+				},
+				{
+					"name": "Nothide",
+					"parent": "Screen",
+					"pivot": [0.00001, 23, -4.51],
+					"cubes": [
+						{"origin": [-3, 22, -4.51], "size": [7, 2, 0], "uv": [52, 41]}
+					]
+				},
+				{
+					"name": "Youare",
+					"parent": "Screen",
+					"pivot": [-0.00002, 25, -4.51],
+					"cubes": [
+						{"origin": [-5, 24, -4.51], "size": [7, 2, 0], "uv": [52, 45]}
+					]
+				},
+				{
+					"name": "Notsafe",
+					"parent": "Screen",
+					"pivot": [1.99999, 23, -4.51],
+					"cubes": [
+						{"origin": [-3, 22, -4.51], "size": [7, 2, 0], "uv": [52, 43]}
+					]
+				},
+				{
+					"name": "Run",
+					"parent": "Screen",
+					"pivot": [0, 25, -4.51],
+					"cubes": [
+						{"origin": [-4.5, 23, -4.51], "size": [9, 4, 0], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Away",
+					"parent": "Screen",
+					"pivot": [0, 22, -4.51],
+					"cubes": [
+						{"origin": [-3.5, 21, -4.51], "size": [7, 2, 0], "uv": [52, 39]}
+					]
+				}
+			]
+		}
+	]
+}
