@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yg_black_phase1.general": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"Head": {
+					"position": {
+						"0.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": {
+							"post": {
+								"vector": [0, -0.5, 0]
+							},
+							"lerp_mode": "catmullrom"
+						},
+						"2.0": {
+							"post": {
+								"vector": [0, 0, 0]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.yg_black_phase1.looking": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"vector": ["query.target_x_rotation - this", "query.target_y_rotation - this", 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
